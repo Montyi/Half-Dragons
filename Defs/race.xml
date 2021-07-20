@@ -48,7 +48,7 @@
 
             <allowHumanBios>true</allowHumanBios>
 
-			<immuneToXenophobia>true</immuneToXenophobia>
+	    <immuneToXenophobia>true</immuneToXenophobia>
 
             <minAgeForAdulthood>12</minAgeForAdulthood>
 
@@ -205,11 +205,8 @@
 			<cannotReceiveThoughtsAtAll>false</cannotReceiveThoughtsAtAll>
 			
 			<cannotReceiveThoughts>
-				<li>Naked</li>
-			<li>AteCorpse</li>
+			<li>Naked</li>
 			<li>AteRawFood</li>
-			<li>AteHumanlikeMeatDirect</li>
-			<li>AteHumanlikeMeatAsIngredient</li>
 			</cannotReceiveThoughts>
 			
 			<canStillReceiveThoughts>
@@ -344,8 +341,6 @@
 				
 				<li>
 					<def>HalfDragon</def>
-							
-
 				</li>
 				
 			</lifeStageAges>
@@ -378,7 +373,6 @@
 		</race>
 
 		<statBases>
-			<!-- These are the Human stats you should use your own refer to the Core files in = \RimWorld\Data\Core\Defs\Stats -->
 			<!-- Some stats are Inherited from the parent such as BasePawn commented below are the stats that are inherited -->
 			<MarketValue>1750</MarketValue>
 			<MoveSpeed>3.7</MoveSpeed>
@@ -390,8 +384,8 @@
 			<IncomingDamageFactor>1</IncomingDamageFactor>
 			<AimingDelayFactor>1</AimingDelayFactor>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
-			<ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-      		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      		        <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.50</ArmorRating_Heat>
       		<PsychicSensitivity>1.00</PsychicSensitivity>
 		</statBases>
@@ -457,6 +451,7 @@
 		</tools>
 		
 		<recipes>
+			<humanRecipeImport>true</humanRecipeImport>
 		<!-- Just a normal list of recipes mostly not needed if using <humanRecipeImport>true</humanRecipeImport> asdie from adding non human recipes  -->
 		</recipes>
 		
