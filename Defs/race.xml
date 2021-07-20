@@ -5,20 +5,17 @@
         <label>Half dragon</label>
         <description>Half human, half dragon.</description>
         <alienRace>
+		
             <graphicPaths>
-                 
-				<li>
-				
-					<lifeStageDefs>
-                    	<li><def>HalfDragon</def>
-						</li>
-                	</lifeStageDefs>
-					
-					<body>sprites/bodies/</body>
-                    
-					<customDrawSize>(1.0, 1.0)</customDrawSize>
-                </li>
-				
+                 <li>
+		     <lifeStageDefs>
+                    	 <li>
+				 <def>HalfDragon</def>
+		          </li>
+                     </lifeStageDefs>
+				<body>sprites/bodies/</body>
+                                <customDrawSize>(1.0, 1.0)</customDrawSize>
+                </li>		
             </graphicPaths>
 
             <hairSettings>
@@ -33,9 +30,18 @@
                 <forcedRaceTraitEntries>
                     <li>
                         <defName>DrugDesire</defName>
-						<degree>-1</degree>
+			<degree>-1</degree>
                         <chance>100</chance>
-					</li>
+		     </li>
+		     <li>
+                         <defName>Beauty</defName>
+                         <degree>2</degree>
+                         <chance>50</chance>
+                      </li>
+		      <li>
+                          <defName>Bloodlast</defName>
+                          <chance>50</chance>
+                      </li>
                 </forcedRaceTraitEntries>
 
             <maxDamageForSocialfight>0</maxDamageForSocialfight>
