@@ -112,7 +112,7 @@
                 <bodyAddons>
                 <li>
 				    <colorChannel>hair</colorChannel>
-					<path>sprites/horns/LHorn</path>
+					<path>pawn/horns/LHorn</path>
 					<bodyPart>left horn</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
@@ -125,7 +125,7 @@
 				</li>
 				<li>
 				    <colorChannel>hair</colorChannel>
-					<path>sprites/horns/RHorn</path>
+					<path>pawn/horns/RHorn</path>
 					<bodyPart>right horn</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
@@ -151,7 +151,7 @@
          </bodyTypes>
                 </south>
 	            </offsets>
-					<path>sprites/tails/Tail</path>
+					<path>pawn/tails/Tail</path>
 					<bodyPart>Tail</bodyPart>
 					<inFrontOfBody>false</inFrontOfBody>
 					<layerInvert>true</layerInvert>
@@ -186,7 +186,7 @@
 					</east>
 				</offsets>
 					<colorChannel>hair</colorChannel>
-					<path>sprites/scales/FScales</path>
+					<path>pawn/scales/FScales</path>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<alignWithHead>false</alignWithHead>
@@ -220,7 +220,7 @@
 					</east>
 				</offsets>
 					<colorChannel>hair</colorChannel>
-					<path>sprites/scales/MScales</path>
+					<path>pawn/scales/MScales</path>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<alignWithHead>false</alignWithHead>
