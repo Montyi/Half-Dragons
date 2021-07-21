@@ -13,14 +13,19 @@
 				 <def>HalfDragon</def>
 		          </li>
                      </lifeStageDefs>
-				<body>sprites/bodies/</body>
-                                <customDrawSize>(1.0, 1.0)</customDrawSize>
+				<body>pawn/bodies/</body>
+                <customDrawSize>(1.0, 1.0)</customDrawSize>
                 </li>		
             </graphicPaths>
 
-            <hairSettings>
-                <hasHair>true</hasHair>
-            </hairSettings>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
 
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
@@ -30,7 +35,7 @@
                 <forcedRaceTraitEntries>
                     <li>
                         <defName>DrugDesire</defName>
-			<degree>-1</degree>
+			            <degree>-1</degree>
                         <chance>100</chance>
 		     </li>
 		     <li>
@@ -45,10 +50,12 @@
                 </forcedRaceTraitEntries>
 
             <maxDamageForSocialfight>0</maxDamageForSocialfight>
+			
+			<humanRecipeImport>true</humanRecipeImport>
 
             <allowHumanBios>true</allowHumanBios>
 
-	    <immuneToXenophobia>false</immuneToXenophobia>
+	        <immuneToXenophobia>false</immuneToXenophobia>
 
             <minAgeForAdulthood>12</minAgeForAdulthood>
 
@@ -62,7 +69,6 @@
                     <li>Female</li>
                 </alienbodytypes>
 		    
-	      <humanRecipeImport>true</humanRecipeImport>
 
                 <useGenderedHeads>true</useGenderedHeads>
                 <useGenderedBodies>false</useGenderedBodies>	
