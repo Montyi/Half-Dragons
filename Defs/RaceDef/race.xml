@@ -17,16 +17,31 @@
                 <customDrawSize>(1.0, 1.0)</customDrawSize>
                 </li>		
             </graphicPaths>
-
-            <styleSettings>
-                <li>
-                    <key>HairDef</key>
+			
+			<styleSettings>
+    <li>
+        <key>HairDef</key>
+        <value>
+            <hasStyle>True</hasStyle>
+			            <styleTags>
+                            <li>Rural</li>
+                            <li>Urban</li>
+                        </styleTags>
+        </value>
+    </li>
+    <li>
+        <key>BeardDef</key>
+        <value>
+            <hasStyle>false</hasStyle>
+        </value>
+                </li>
+	<li>
+                    <key>TattooDef</key>
                     <value>
-                        <hasStyle>true</hasStyle>
+                        <hasStyle>false</hasStyle>
                     </value>
                 </li>
-            </styleSettings>
-
+</styleSettings>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
