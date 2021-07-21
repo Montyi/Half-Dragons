@@ -501,17 +501,55 @@
 	
 </AlienRace.ThingDef_AlienRace>
  <PawnKindDef>
-        <defName>HalfDragonPawnKindDef1</defName>
-        <label>Half Dragon</label>
+        <defName>Half-Dragon</defName>
+        <label>Half-Dragon</label>
         <race>HalfDragon</race>
-       
-
         <combatPower>200</combatPower>
-		
-    
-    
-    
     </PawnKindDef>
+	
+	<pawnKindSettings>
+
+       <alienrefugeekinds>
+        <li>
+            <kindDefs>
+                <li>Half-Dragon</li>
+            </kindDefs>
+            <chance>5.0</chance>
+        </li>
+       </alienrefugeekinds>
+	       <startingColonists>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>Half-Dragon</li>
+                    </kindDefs>
+                    <chance>5.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>PlayerColony</li> 
+            </factionDefs>
+        </li>
+            </startingColonists>
+			    <alienwandererkinds>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>Half-Dragon</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>PlayerColony</li> 
+            </factionDefs>
+        </li>
+            </alienwandererkinds>
+
+    </pawnKindSettings>
+	
     <AlienRace.BackstoryDef>
         <defName>Halfdragonone</defName>
         <title>Half Dragon child</title>
