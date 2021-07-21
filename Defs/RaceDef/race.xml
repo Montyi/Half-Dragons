@@ -50,8 +50,6 @@
                 </forcedRaceTraitEntries>
 
             <maxDamageForSocialfight>0</maxDamageForSocialfight>
-			
-			<humanRecipeImport>true</humanRecipeImport>
 
             <allowHumanBios>true</allowHumanBios>
 
