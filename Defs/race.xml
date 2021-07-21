@@ -48,7 +48,7 @@
 
             <allowHumanBios>true</allowHumanBios>
 
-	    <immuneToXenophobia>true</immuneToXenophobia>
+	    <immuneToXenophobia>false</immuneToXenophobia>
 
             <minAgeForAdulthood>12</minAgeForAdulthood>
 
@@ -61,15 +61,53 @@
                     <li>Male</li>
                     <li>Female</li>
                 </alienbodytypes>
+		    
+	      <humanRecipeImport>true</humanRecipeImport>
 
                 <useGenderedHeads>true</useGenderedHeads>
-                <useGenderedBodies>false</useGenderedBodies>
-				
+                <useGenderedBodies>false</useGenderedBodies>	
 
-                <colorChannels>
-                  
-                     
-                </colorChannels>
+               <colorChannels>
+    <li>
+        <name>hair</name>
+        <first Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>10</weight>
+                    <only>RGBA(210, 210, 4, 1)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>RGBA(210, 88, 178, 1)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>RGBA(211, 23, 23, 1)</only>
+                </li>
+		<li>
+                    <weight>10</weight>
+                    <only>RGBA(129, 193, 0, 1)</only>
+                </li>
+		<li>
+                    <weight>10</weight>
+                    <only>RGBA(255, 163, 0, 1)</only>
+                </li>
+		<li>
+                    <weight>10</weight>
+                    <only>RGBA(255, 227, 255, 1)</only>
+                </li>
+		<li>
+                    <weight>10</weight>
+                    <only>RGBA(255, 255, 187, 1)</only>
+                </li>
+		<li>
+                    <weight>10</weight>
+                    <only>RGBA(184, 230, 255, 1)</only>
+                </li>
+            </options>
+        </first>
+    </li>
+                 </colorChannels>
 
                 <bodyAddons>
                 <li>
