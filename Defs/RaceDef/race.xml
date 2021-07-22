@@ -8,11 +8,6 @@
 		
             <graphicPaths>
                  <li>
-		     <lifeStageDefs>
-                    	 <li>
-				 <def>HalfDragon</def>
-		          </li>
-                     </lifeStageDefs>
 				<body>pawn/bodies/</body>
                 <customDrawSize>(1.0, 1.0)</customDrawSize>
                 </li>		
@@ -385,7 +380,7 @@
                         </bodyTypes>
 					</south>
 					<east>
-					    <layerOffset>-0.29018</layerOffset>
+					    <layerOffset>-0.2901</layerOffset>
 						<bodyTypes>
                             <Female>(2,-2)</Female>
                         </bodyTypes>
@@ -677,15 +672,11 @@
 		</tools>
 		
 		<recipes>
+		<li>
 			<humanRecipeImport>true</humanRecipeImport>
+		</li>
 		</recipes>
-		
 
-	
-
-		
-		
-	
 </AlienRace.ThingDef_AlienRace>
 
 <AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
