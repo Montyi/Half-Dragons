@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="true" Name="BaseDragon">
         <defName>HalfDragon</defName>
         <label>Half dragon</label>
         <description>Half human, half dragon.</description>
@@ -18,30 +18,6 @@
                 </li>		
             </graphicPaths>
 			
-			<styleSettings>
-    <li>
-        <key>HairDef</key>
-        <value>
-            <hasStyle>True</hasStyle>
-			            <styleTags>
-                            <li>Rural</li>
-                            <li>Urban</li>
-                        </styleTags>
-        </value>
-    </li>
-    <li>
-        <key>BeardDef</key>
-        <value>
-            <hasStyle>false</hasStyle>
-        </value>
-                </li>
-	<li>
-                    <key>TattooDef</key>
-                    <value>
-                        <hasStyle>false</hasStyle>
-                    </value>
-                </li>
-            </styleSettings>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
@@ -354,6 +330,8 @@
 					<drawSize>(1.0, 1.0)</drawSize>
                		<drawSizePortrait>(1.0,1.0)</drawSizePortrait>
                 	<drawRotated>false</drawRotated>
+					<defaultOffset>Tail</defaultOffset>
+					<drawnInBed>false</drawnInBed>
                 	<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 				</li>
 				<li>
@@ -381,6 +359,7 @@
 				</offsets>
 					<colorChannel>hair</colorChannel>
 					<path>pawn/scales/FScales</path>
+					<bodyPart>Waist</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<alignWithHead>false</alignWithHead>
@@ -388,6 +367,7 @@
 					<drawSize>(1.00, 1.00)</drawSize>
                		<drawSizePortrait>(1.0,1.0)</drawSizePortrait>
                 	<drawRotated>false</drawRotated>
+					<drawnInBed>false</drawnInBed>
                 	<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 				</li>
 				<li>
@@ -415,6 +395,7 @@
 				</offsets>
 					<colorChannel>hair</colorChannel>
 					<path>pawn/scales/MScales</path>
+					<bodyPart>Waist</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<alignWithHead>false</alignWithHead>
@@ -627,13 +608,13 @@
             <ageGenerationCurve>
                 <points>
                 <li>(14,0)</li>
-                <li>(16,20)</li>
-                <li>(50,40)</li>
-                <li>(60,50)</li>
-                <li>(70,100)</li>
-                <li>(80,50)</li>
-                <li>(90,20)</li>
-                <li>(100,20)</li>
+                <li>(16,100)</li>
+                <li>(50,100)</li>
+                <li>(60,30)</li>
+                <li>(70,18)</li>
+                <li>(80,10)</li>
+                <li>(90,3)</li>
+                <li>(100,0)</li>
                 </points>
             </ageGenerationCurve>
         </race>
@@ -709,13 +690,63 @@
 		
 	
 </AlienRace.ThingDef_AlienRace>
+
+<AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
+        <defName>HalfDragon</defName>
+        <alienRace>
+            <generalSettings>
+            </generalSettings>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <styleTags>
+                            <li>NoBeard</li>
+                        </styleTags>
+                    </value>
+                </li>
+            </styleSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+	
+	<AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
+        <defName>HalfDragon_colonist</defName>
+        <alienRace>
+            <generalSettings>
+            </generalSettings>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <styleTags>
+                            <li>NoBeard</li>
+                        </styleTags>
+                    </value>
+                </li>
+            </styleSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
  
 	<pawnKindSettings>
 
        <alienrefugeekinds>
         <li>
             <kindDefs>
-                <li>Half-Dragon</li>
+                <li>HalfDragon</li>
             </kindDefs>
             <chance>5.0</chance>
         </li>
@@ -725,7 +756,7 @@
             <pawnKindEntries>
                 <li>
                     <kindDefs>
-                        <li>Half-Dragon</li>
+                        <li>HalfDragon</li>
                     </kindDefs>
                     <chance>5.0</chance>
                 </li>
@@ -740,7 +771,7 @@
             <pawnKindEntries>
                 <li>
                     <kindDefs>
-                        <li>Half-Dragon</li>
+                        <li>HalfDragon</li>
                     </kindDefs>
                     <chance>10.0</chance>
                 </li>
@@ -754,7 +785,7 @@
     </pawnKindSettings>
 	
     <AlienRace.BackstoryDef>
-        <defName>Halfdragonone</defName>
+        <defName>HalfdragonChild1</defName>
         <title>Half Dragon child</title>
         <titleShort>Half Dragon child</titleShort>
         <baseDescription>Half Dragon child</baseDescription>

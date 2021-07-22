@@ -34,5 +34,40 @@
           </thingDefs>
         </apparelStuffFilter>
     </FactionDef>
+	
+	<FactionDef ParentName="PlayerFactionBase">
+        <defName>PlayerDragonTribe</defName>
+        <label>New Half-Dragon Tribe</label>
+        <description>A small tribe of Half-Dragons.</description>
+        <isPlayer>true</isPlayer>
+        <pawnSingular>Half-Dragon</pawnSingular>
+        <pawnsPlural>Half-Dragons</pawnsPlural>
+        <basicMemberKind>HalfDragon</basicMemberKind>
+        <techLevel>Neolithic</techLevel>
+        <backstoryFilters>
+            <li>
+                <categories>
+                  <li>Tribal</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <factionIconPath>icon/PlayerColony</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+        <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+        <factionNameMaker>NamerFactionTribal</factionNameMaker>
+        <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+        <geneticVariance>1</geneticVariance>
+        <forageabilityFactor>1.7</forageabilityFactor>
+        <startingResearchTags>
+            <li>TribalStart</li>
+        </startingResearchTags>
+        <startingTechprintsResearchTags>
+            <li>TribalStart</li>
+            <li>TribalStartTechprints</li>
+        </startingTechprintsResearchTags>
+        <recipePrerequisiteTags>
+            <li>Tribal</li>
+        </recipePrerequisiteTags>
+    </FactionDef>
 
 </Defs>
