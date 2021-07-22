@@ -670,12 +670,6 @@
 				<chanceFactor>0.4</chanceFactor>
 			</li>
 		</tools>
-		
-		<recipes>
-		<li>
-			<humanRecipeImport>true</humanRecipeImport>
-		</li>
-		</recipes>
 
 </AlienRace.ThingDef_AlienRace>
 
