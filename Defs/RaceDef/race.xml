@@ -41,7 +41,7 @@
                         <hasStyle>false</hasStyle>
                     </value>
                 </li>
-</styleSettings>
+            </styleSettings>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
@@ -548,16 +548,16 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>50</lifeExpectancy>
-			<leatherDef>HalfDragon_Joris</leatherDef>
+			<leatherDef>Leather_Human</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>halfdragonbody</body>
 			<baseBodySize>1</baseBodySize>
-			<baseHealthScale>1</baseHealthScale>
+			<baseHealthScale>2</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<meatMarketValue>0.8</meatMarketValue>
-			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<litterSizeCurve>
 				<!-- how many babies are made unused in vanilla for humanlikes -->
 				<points>
@@ -569,8 +569,6 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
-			
-				
 				<li>
 					<def>HalfDragon</def>
 				</li>
@@ -606,25 +604,31 @@
 
 		<statBases>
 			<!-- Some stats are Inherited from the parent such as BasePawn commented below are the stats that are inherited -->
+			<!-- advantage -->
+			<MoveSpeed>6.5</MoveSpeed>
+            <HungerRateMultiplier>0.55</HungerRateMultiplier>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      		<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<!-- disadvantage -->
+			<MentalBreakThreshold>0.5</MentalBreakThreshold>
+			<!--  -->
 			<MarketValue>1750</MarketValue>
-			<MoveSpeed>3.7</MoveSpeed>
-			<ComfyTemperatureMin>18</ComfyTemperatureMin>
-			<ComfyTemperatureMax>70</ComfyTemperatureMax>
+			<MoveSpeed>7</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>80</ComfyTemperatureMax>
 			<LeatherAmount>50</LeatherAmount>
 			<RoyalFavorValue>6</RoyalFavorValue>
 			<Flammability>0.0</Flammability>
-			<IncomingDamageFactor>1</IncomingDamageFactor>
+			<IncomingDamageFactor>0.85</IncomingDamageFactor>
 			<AimingDelayFactor>1</AimingDelayFactor>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      		        <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.50</ArmorRating_Heat>
-      		<PsychicSensitivity>1.00</PsychicSensitivity>
+      		<PsychicSensitivity>1.10</PsychicSensitivity>
 		</statBases>
 		
 		<tools Inherit="False">
 			<li>
-				<label>left fist</label>
+				<label>left claws</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -641,7 +645,7 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>right fist</label>
+				<label>right claws</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
