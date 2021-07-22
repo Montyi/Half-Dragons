@@ -16,7 +16,7 @@
             </categories>
           </li>
         </backstoryFilters>
-        <factionIconPath>icon/PlayerColony</factionIconPath>
+        <factionIconPath>label/PlayerColony</factionIconPath>
         <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
         <factionNameMaker>NamerFactionOutlander</factionNameMaker>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -51,7 +51,7 @@
                 </categories>
             </li>
         </backstoryFilters>
-        <factionIconPath>icon/PlayerColony</factionIconPath>
+        <factionIconPath>label/PlayerColony</factionIconPath>
         <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
         <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
         <factionNameMaker>NamerFactionTribal</factionNameMaker>
