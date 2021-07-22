@@ -322,7 +322,6 @@
                 </south>
 	            </offsets>
 					<path>pawn/tails/Tail</path>
-					<bodyPart>Tail</bodyPart>
 					<inFrontOfBody>false</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<alignWithHead>false</alignWithHead>
@@ -330,7 +329,6 @@
 					<drawSize>(1.0, 1.0)</drawSize>
                		<drawSizePortrait>(1.0,1.0)</drawSizePortrait>
                 	<drawRotated>false</drawRotated>
-					<defaultOffset>Tail</defaultOffset>
 					<drawnInBed>false</drawnInBed>
                 	<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 				</li>
@@ -344,14 +342,14 @@
                         </bodyTypes>
                     </north>
 					<south>
-					    <layerOffset>-0.28</layerOffset>
+					    <layerOffset>-0.2901</layerOffset>
 						<bodyTypes>
 						    <Female>(0.01,0)</Female>
                             <Male>(2,-2)</Male>
                         </bodyTypes>
 					</south>
 					<east>
-					    <layerOffset>-0.28</layerOffset>
+					    <layerOffset>-0.2901</layerOffset>
 						<bodyTypes>
                             <Male>(2,-2)</Male>
                         </bodyTypes>
@@ -361,7 +359,7 @@
 					<path>pawn/scales/FScales</path>
 					<bodyPart>Waist</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
-					<layerInvert>true</layerInvert>
+					<layerInvert>false</layerInvert>
 					<alignWithHead>false</alignWithHead>
 					<drawnDesiccated>false</drawnDesiccated>
 					<drawSize>(1.00, 1.00)</drawSize>
@@ -380,14 +378,14 @@
                         </bodyTypes>
                     </north>
 					<south>
-					    <layerOffset>-0.28</layerOffset>
+					    <layerOffset>-0.2901</layerOffset>
 						<bodyTypes>
 						    <Male>(0.01,0)</Male>
                             <Female>(2,-2)</Female>
                         </bodyTypes>
 					</south>
 					<east>
-					    <layerOffset>-0.28</layerOffset>
+					    <layerOffset>-0.29018</layerOffset>
 						<bodyTypes>
                             <Female>(2,-2)</Female>
                         </bodyTypes>
@@ -397,7 +395,7 @@
 					<path>pawn/scales/MScales</path>
 					<bodyPart>Waist</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
-					<layerInvert>true</layerInvert>
+					<layerInvert>false</layerInvert>
 					<alignWithHead>false</alignWithHead>
 					<drawnDesiccated>false</drawnDesiccated>
 					<drawSize>(1.00, 1.00)</drawSize>
@@ -534,7 +532,6 @@
 			<MentalBreakThreshold>0.5</MentalBreakThreshold>
 			<!--  -->
 			<MarketValue>2500</MarketValue>
-			<MoveSpeed>7</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>80</ComfyTemperatureMax>
 			<MeatAmount>75</MeatAmount>
@@ -709,6 +706,15 @@
                         <hasStyle>true</hasStyle>
                         <styleTags>
                             <li>NoBeard</li>
+                        </styleTags>
+                    </value>
+                </li>
+				<li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <styleTags>
+                            <li>NoTattoo</li>
                         </styleTags>
                     </value>
                 </li>
