@@ -362,6 +362,7 @@
                 	<drawRotated>false</drawRotated>
 					<drawnInBed>false</drawnInBed>
                 	<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+					<drawForMale>false</drawForMale>
 				</li>
 				<li>
 				<offsets>
@@ -397,6 +398,7 @@
                		<drawSizePortrait>(1.0,1.0)</drawSizePortrait>
                 	<drawRotated>false</drawRotated>
                 	<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+					<drawForFemale>false</drawForFemale>
 				</li>
                 </bodyAddons>
             </alienPartGenerator>
