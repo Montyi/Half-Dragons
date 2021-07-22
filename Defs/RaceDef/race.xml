@@ -9,6 +9,7 @@
             <graphicPaths>
                  <li>
 				<body>pawn/bodies/</body>
+				<head>pawn/head/</head>
                 <customDrawSize>(1.0, 1.0)</customDrawSize>
                 </li>		
             </graphicPaths>
