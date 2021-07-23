@@ -691,19 +691,13 @@
                 <li>
                     <key>BeardDef</key>
                     <value>
-                        <hasStyle>true</hasStyle>
-                        <styleTags>
-                            <li>NoBeard</li>
-                        </styleTags>
+                        <hasStyle>false</hasStyle>
                     </value>
                 </li>
 				<li>
                     <key>TattooDef</key>
                     <value>
-                        <hasStyle>true</hasStyle>
-                        <styleTags>
-                            <li>NoTattoo</li>
-                        </styleTags>
+                        <hasStyle>false</hasStyle>
                     </value>
                 </li>
             </styleSettings>
