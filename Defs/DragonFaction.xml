@@ -5,7 +5,7 @@
         <label>New Half-Dragons Arrivals</label>
         <description>A colony of recently-arrived off-world Half-Dragons.</description>
         <isPlayer>true</isPlayer>
-        <basicMemberKind>Half Dragon colonist</basicMemberKind>
+        <basicMemberKind>HalfDragon_colonist</basicMemberKind>
         <pawnSingular>Half-Dragon</pawnSingular>
         <pawnsPlural>Half-Dragons</pawnsPlural>
         <techLevel>Industrial</techLevel>
