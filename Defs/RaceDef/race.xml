@@ -24,33 +24,34 @@ A point of debate of many scholars is how such a openly savage race had made it 
                 <humanRecipeImport>true</humanRecipeImport>
 
                 <forcedRaceTraitEntries>
-                      <li>
-                        <defName>DrugDesire</defName>
-			            <degree>-1</degree>
-                        <chance>100</chance>
-		              </li>
 		              <li>
                          <defName>Beauty</defName>
                          <degree>2</degree>
-                         <chance>50</chance>
+                         <chance>15</chance>
                       </li>
 		              <li>
                           <defName>Bloodlust</defName>
-                          <chance>50</chance>
+                          <chance>25</chance>
                       </li>
 		              <li>
                           <defName>Brawler</defName>
                           <chance>85</chance>
                       </li>
 					  <li>
-                          <defName>Cannibal</defName>
-                          <chance>0</chance>
-                      </li>
-					  <li>
                           <defName>Greedy</defName>
                           <chance>25</chance>
                       </li>
                 </forcedRaceTraitEntries>
+				<disallowedTraits>
+                <li>
+                          <defName>Cannibal</defName>
+                          <chance>0</chance>
+                </li>
+                <li>
+                        <defName>DrugDesire</defName>
+                        <chance>100</chance>
+		         </li>
+            </disallowedTraits>
 
             <maxDamageForSocialfight>0</maxDamageForSocialfight>
 
