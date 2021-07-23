@@ -1,10 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
 <Defs>
 
 <ScenarioDef>
-<scenario>
-		<name>Crashlanded Dragons</name>
+      <defName>Half-Dragon_Scenario</defName>
+	  <label>Crashlanded Dragons</label>
+	  <description>The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld.</description>
+      <scenario>
 		<summary>Three crashlanded  Half-Dragons - the classic RimWorld experience.</summary>
-		<description>The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld.</description>
 		<playerFaction>
 			<def>PlayerFaction</def>
 			<factionDef>PlayerDragonColony</factionDef>
@@ -116,6 +119,7 @@
 				<closeSound>GameStartSting</closeSound>
 			</li>
 		</parts>
+		</scenario>
 </ScenarioDef>
 
 </Defs>
