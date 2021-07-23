@@ -3,7 +3,11 @@
 <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="true" Name="BaseDragon">
         <defName>HalfDragon</defName>
         <label>Half dragon</label>
-        <description>Half human, half dragon.</description>
+        <description>The Half-Dragons have been a space faring race for quite a long time, contrary to popular belief these noble yet somewhat savage folk are not genetically engineered. They are easily spotted by their physical differences with humans thanks to their colorful scales, draconic eyes, horns and even tails! Thanks to their physical differences and strong scales people of this race proved themselves to be excellent melee combatants. It was easy to find them serving various empires outside of their own as front line fighters. 
+
+Sadly due to their hardy nature and exotic looks many Half-Dragons end up captured and forced into gladiatorial combat. There are other reasons they are highly sought after; unique biological traits that are wholly unique to them. One of which allows to combine a specialized ore with their blood that activates various powerful abilities. 
+
+A point of debate of many scholars is how such a openly savage race had made it to spaceflight, much less a force that roams about the galaxy. This is in large part thanks to a rare sub group of Half-Dragons that lead their kind in political, cultural and scientific endeavors. These "albino's" are almost the polar opposites of their more common brutish brethren. Despite a strong imperial nation and a sense of loyalty to their own, those that find themselves able to escape their gladiatorial slavery often form up as pirates. These pirates tend to be ruthless and a general nuisance in the galaxy.</description>
         <alienRace>
 		
             <graphicPaths>
