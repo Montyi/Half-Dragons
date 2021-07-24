@@ -310,6 +310,7 @@ A point of debate of many scholars is how such a openly savage race had made it 
 				    <colorChannel>hair</colorChannel>
 					<path>pawn/horns/RHorn</path>
 					<bodyPart>right horn</bodyPart>
+					<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<alignWithHead>true</alignWithHead>
@@ -539,12 +540,26 @@ A point of debate of many scholars is how such a openly savage race had made it 
 			<!-- Some stats are Inherited from the parent such as BasePawn commented below are the stats that are inherited -->
 			<!-- advantage -->
 			<MoveSpeed>6.5</MoveSpeed>
-            <HungerRateMultiplier>0.55</HungerRateMultiplier>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      		<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+            <HungerRateMultiplier>1.2</HungerRateMultiplier>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      		<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+			<InjuryHealingFactor>1.5</InjuryHealingFactor>
+			<EatingSpeed>2</EatingSpeed>
+			<BondAnimalChanceFactor>3</BondAnimalChanceFactor>
+			<ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency>
+			<MeleeHitChance>1.35</MeleeHitChance>
+			<MeleeArmorPenetration>0.2</MeleeArmorPenetration>
+			<MeleeDodgeChance>1.25</MeleeDodgeChance>
 			<!-- disadvantage -->
+			<HungerRateMultiplier>1.2</HungerRateMultiplier>
 			<MentalBreakThreshold>0.5</MentalBreakThreshold>
+		    <ResearchSpeed>0.7</ResearchSpeed>
+			<ConstructionSpeed>1.5</ConstructionSpeed>
+			<DrugSynthesisSpeed>0.75</DrugSynthesisSpeed>
+			<FoodPoisonChance>0.35</FoodPoisonChance>
+			<ButcheryMechanoidEfficiency>0.85</ButcheryMechanoidEfficiency>
 			<!--  -->
 			<MarketValue>2500</MarketValue>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
