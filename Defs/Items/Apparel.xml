@@ -14,7 +14,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Items\apparel\DragonPowerArmor</texPath>
+      <texPath>Items/apparel/DragonPowerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
@@ -33,7 +33,7 @@
       <EquipDelay>14</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0.1</MoveSpeed>
+      <MoveSpeed>0.15</MoveSpeed>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <thingCategories>
@@ -57,7 +57,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Items\apparel\DragonPowerArmor</wornGraphicPath>
+      <wornGraphicPath>Items/apparel/DragonPowerArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -100,14 +100,14 @@
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Items\apparel\DragonPowerArmorHelm</texPath>
+      <texPath>Items/apparel/DragonPowerArmorHelm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
@@ -128,8 +128,6 @@
       <EquipDelay>4</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <Sight>0.25</Sight>
-	  <Hearing>0.25</Hearing>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <costList>
@@ -140,7 +138,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Items\apparel\DragonPowerArmorHelm</wornGraphicPath>
+      <wornGraphicPath>Items/apparel/DragonPowerArmorHelm</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
