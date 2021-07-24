@@ -18,12 +18,13 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
+	<tickerType>Normal</tickerType>
     <statBases>
       <WorkToMake>60000</WorkToMake>
       <MaxHitPoints>340</MaxHitPoints>
       <Mass>12</Mass>
       <Flammability>0.4</Flammability>
-	  <EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+	  <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
       <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
@@ -89,7 +90,8 @@
     <defName>HD_PowerArmor</defName>
     <label>Draconic marine armor</label>
     <description>A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nArmor like this is often used by rapid-incursion space marines.</description>
-    <apparel>
+    <thingClass>ShieldBelt</thingClass>
+	<apparel>
       <tags>
         <li>SpacerMilitary</li>
 		<li>BeltDefense</li>
