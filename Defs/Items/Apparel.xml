@@ -37,6 +37,7 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <thingCategories>
+	  <li>ApparelUtility</li>
       <li>ApparelArmor</li>
     </thingCategories>
     <tradeTags>
@@ -60,6 +61,7 @@
       <wornGraphicPath>Items/apparel/DragonPowerArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
+		<li>Belt</li>
         <li>Shell</li>
       </layers>
       <defaultOutfitTags>
@@ -90,6 +92,7 @@
     <apparel>
       <tags>
         <li>SpacerMilitary</li>
+		<li>BeltDefense</li>
       </tags>
     </apparel>
   </ThingDef>

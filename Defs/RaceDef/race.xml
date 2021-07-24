@@ -469,6 +469,8 @@ A point of debate of many scholars is how such a openly savage race had made it 
 				<!-- all the below Lists use the same format -->
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel><!-- my race is limited -->
 				<apparelList>
+				  <li>HD_PowerArmor</li>
+				  <li>HD_PowerArmorHelmet</li>
 				</apparelList>
 				
 				<whiteApparelList><!-- if limtied not to these -->
