@@ -24,17 +24,9 @@ A point of debate of many scholars is how such a openly savage race had made it 
                 <humanRecipeImport>true</humanRecipeImport>
 
                 <forcedRaceTraitEntries>
-				      <li>
-                          <defName>HD_HumanBlooded</defName>
-                          <chance>10</chance>
-                      </li>
-		              <li>
-                          <defName>Brawler</defName>
-                          <chance>90</chance>
-                      </li>
+				   
                 </forcedRaceTraitEntries>
-				<traitCount>1~1</traitCount>
-				<additionalTraits>1~3</additionalTraits>
+				<traitCount>2~5</traitCount>
 				<disallowedTraits>
                 <li>
                           <defName>Cannibal</defName>
@@ -490,6 +482,9 @@ A point of debate of many scholars is how such a openly savage race had made it 
 				
 				<onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits><!-- my race is limited -->
 				<traitList>
+				<li>HD_HumanBlooded</li>
+				<li>HD_Brawler</li>
+				<li>HD_Bloodlust</li>
 				</traitList>
 				<whiteTraitList>
 				</whiteTraitList>

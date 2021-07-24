@@ -14,7 +14,7 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>1500</MarketValue>
+      <MarketValue>500</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0</Flammability>
