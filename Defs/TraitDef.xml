@@ -3,7 +3,7 @@
 <Defs>
 
   <TraitDef>
-    <defName>HumanBlooded</defName>
+    <defName>HD_HumanBlooded</defName>
     <commonality>0</commonality>
     <degreeDatas>
       <li>
@@ -31,4 +31,4 @@
     </conflictingTraits>
   </TraitDef>
   
-  <Defs>
+  </Defs>

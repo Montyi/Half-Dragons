@@ -24,36 +24,23 @@ A point of debate of many scholars is how such a openly savage race had made it 
                 <humanRecipeImport>true</humanRecipeImport>
 
                 <forcedRaceTraitEntries>
-		              <li>
-                         <defName>Beauty</defName>
-                         <degree>2</degree>
-                         <chance>15</chance>
-                      </li>
-		              <li>
-                          <defName>Bloodlust</defName>
-                          <chance>25</chance>
+				      <li>
+                          <defName>HD_HumanBlooded</defName>
+                          <chance>10</chance>
                       </li>
 		              <li>
                           <defName>Brawler</defName>
-                          <chance>85</chance>
-                      </li>
-					  <li>
-                          <defName>Greedy</defName>
-                          <chance>25</chance>
-                      </li>
-					  <li>
-                          <defName>HumanBlooded</defName>
-                          <chance>10</chance>
+                          <chance>90</chance>
                       </li>
                 </forcedRaceTraitEntries>
+				<traitCount>1~1</traitCount>
+				<additionalTraits>1~3</additionalTraits>
 				<disallowedTraits>
                 <li>
                           <defName>Cannibal</defName>
-                          <chance>0</chance>
                 </li>
                 <li>
                         <defName>DrugDesire</defName>
-                        <chance>100</chance>
 		         </li>
             </disallowedTraits>
 
@@ -544,7 +531,6 @@ A point of debate of many scholars is how such a openly savage race had made it 
 			<!-- Some stats are Inherited from the parent such as BasePawn commented below are the stats that are inherited -->
 			<!-- advantage -->
 			<MoveSpeed>6.5</MoveSpeed>
-            <HungerRateMultiplier>1.2</HungerRateMultiplier>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       		<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.50</ArmorRating_Heat>
