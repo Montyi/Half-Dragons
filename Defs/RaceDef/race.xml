@@ -41,6 +41,10 @@ A point of debate of many scholars is how such a openly savage race had made it 
                           <defName>Greedy</defName>
                           <chance>25</chance>
                       </li>
+					  <li>
+                          <defName>HumanBlooded</defName>
+                          <chance>10</chance>
+                      </li>
                 </forcedRaceTraitEntries>
 				<disallowedTraits>
                 <li>
