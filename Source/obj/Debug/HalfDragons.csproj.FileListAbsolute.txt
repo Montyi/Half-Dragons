@@ -1,6 +1,0 @@
-E:\SteamLibrary\steamapps\workshop\content\294100\2556121262\Source\obj\Debug\HalfDragons.csprojAssemblyReference.cache
-E:\SteamLibrary\steamapps\workshop\content\294100\2556121262\Source\obj\Debug\HalfDragons.csproj.CoreCompileInputs.cache
-E:\SteamLibrary\steamapps\workshop\content\294100\2556121262\Assemblies\HalfDragons.dll
-E:\SteamLibrary\steamapps\workshop\content\294100\2556121262\Assemblies\HalfDragons.pdb
-E:\SteamLibrary\steamapps\workshop\content\294100\2556121262\Source\obj\Debug\HalfDragons.dll
-E:\SteamLibrary\steamapps\workshop\content\294100\2556121262\Source\obj\Debug\HalfDragons.pdb
