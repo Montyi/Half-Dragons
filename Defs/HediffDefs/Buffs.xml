@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>HD_dragonRage</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Dragon Rage</label>
+    <description>ANGERY</description>
+    <initialSeverity>0.000000001</initialSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <minSeverity>0.1</minSeverity>
+      </li>
+      <li>
+        <minSeverity>0.2</minSeverity>
+      </li>
+      <li>
+        <minSeverity>0.3</minSeverity>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>5000~5000</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

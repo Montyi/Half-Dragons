@@ -14,7 +14,6 @@
 		  <ArmorRating_Blunt>-0.1</ArmorRating_Blunt>
           <ArmorRating_Sharp>-0.45</ArmorRating_Sharp>
 		  <ArmorRating_Heat>-0.20</ArmorRating_Heat>
-		  <ResearchSpeed>0.5</ResearchSpeed>
         </statOffsets>
         <skillGains>
           <li><key>Shooting</key><value>2</value></li>
