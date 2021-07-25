@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <HalfDragons.TraitColorChangesDef>
-    <defName>HD_HumanBlooded</defName>
+    <defName>TraitsToHairColor</defName>
     <colorChanges>
       <li>
-        <trait>Brawler</trait>
-        <color>(1, 1, 1, 1)</color>
+        <trait>HD_HumanBlooded</trait>
+        <color>(1, 1, 1, 0.2)</color>
       </li>
     </colorChanges>
   </HalfDragons.TraitColorChangesDef>
