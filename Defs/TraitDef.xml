@@ -4,7 +4,7 @@
 
   <TraitDef>
     <defName>HD_HumanBlooded</defName>
-    <commonality>0.15</commonality>
+    <commonality>1</commonality>
     <degreeDatas>
       <li>
         <label>Human Blooded</label>
@@ -57,7 +57,7 @@
   
   <TraitDef>
     <defName>HD_Brawler</defName>
-	<commonality>10</commonality>
+	<commonality>65</commonality>
     <degreeDatas>
       <li>
         <label>brawler</label>

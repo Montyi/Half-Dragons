@@ -5,7 +5,7 @@
     <colorChanges>
       <li>
         <trait>HD_HumanBlooded</trait>
-        <color>(1, 1, 1, 0.2)</color>
+        <color>RGBA(1, 1, 1, 1)</color>
       </li>
     </colorChanges>
   </HalfDragons.TraitColorChangesDef>
