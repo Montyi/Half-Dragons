@@ -13,6 +13,7 @@ namespace HalfDragons
     {
         public static ThingDef_AlienRace halfDragonRace = DefDatabase<ThingDef_AlienRace>.GetNamed("HalfDragon");
         public static float dragonRageMaxSeverity = 0.3f;
+        public static NeedDef dragonBlood = DefDatabase<NeedDef>.GetNamed("HD_DragonBlood");
     }
 
     [DefOf]
@@ -24,5 +25,6 @@ namespace HalfDragons
         }
 
         public static HediffDef HD_dragonRage;
+        public static HediffDef HD_regenerativeExhaustion;
     }
 }

@@ -5,7 +5,7 @@ using HarmonyLib;
 using Verse;
 using RimWorld;
 
-namespace HalfDragons
+namespace HalfDragons.Patch2
 {
     [HarmonyPatch(typeof(PawnGenerator), "GeneratePawn", new[] { typeof(PawnGenerationRequest) })]
     static class RV2_Patch_GeneratePawn
@@ -22,9 +22,9 @@ namespace HalfDragons
                 }
                 foreach(TraitColorChangesDef colorChangeDef in colorChangeDefs)
                 {
-                    Log.Message("Applying colorChangeDef " + colorChangeDef.defName + " previous hair color : " + __result.story?.hairColor);
+                    //Log.Message("Applying colorChangeDef " + colorChangeDef.defName + " previous hair color : " + __result.story?.hairColor);
                     colorChangeDef.SetHairColor(__result);
-                    Log.Message("new hair color : " + __result.story?.hairColor);
+                    //Log.Message("new hair color : " + __result.story?.hairColor);
                 }
             }
             catch (Exception e)

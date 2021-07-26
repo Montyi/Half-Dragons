@@ -11,7 +11,7 @@ namespace HalfDragons
 {
     public class TraitColorChangesDef : Def
     {
-        List<TraitColorChange> colorChanges;
+        public List<TraitColorChange> colorChanges = null;
 
         public void SetHairColor(Pawn pawn)
         {

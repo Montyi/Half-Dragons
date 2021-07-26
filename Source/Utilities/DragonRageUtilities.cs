@@ -19,7 +19,7 @@ namespace HalfDragons
             return hediffs.Find(hediff => hediff.def == HD_HediffDefOf.HD_dragonRage);
         }
 
-        public static bool IsEligableForDragonRage(this Pawn pawn)
+        public static bool IsHalfDragon(this Pawn pawn)
         {
             return pawn.def == HD_Common.halfDragonRace;
         }

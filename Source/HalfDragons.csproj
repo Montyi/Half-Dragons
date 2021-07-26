@@ -44,6 +44,10 @@
       <HintPath>..\..\..\..\..\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="HugsLib">
+      <HintPath>..\..\..\..\..\workshop\content\294100\818773962\v1.3\Assemblies\HugsLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -60,11 +64,15 @@
   <ItemGroup>
     <Compile Include="Common.cs" />
     <Compile Include="Defs\TraitColorChangesDef.cs" />
+    <Compile Include="Needs\Need_DragonBlood.cs" />
     <Compile Include="Patches\Patch_PawnGenerator.cs" />
+    <Compile Include="Patches\Patch_Pawn_NeedsTracker.cs" />
     <Compile Include="Patches\Patch_Verb_MeleeAttackDamage.cs" />
+    <Compile Include="Settings\HalfDragonSettings.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\DragonRageUtilities.cs" />
+    <Compile Include="Utilities\InjuryUtilities.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

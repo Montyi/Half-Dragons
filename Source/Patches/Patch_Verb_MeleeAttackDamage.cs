@@ -20,7 +20,7 @@ namespace HalfDragons.Patch1
                 {
                     return;
                 }
-                if (!caster.IsEligableForDragonRage())
+                if (!caster.IsHalfDragon())
                 {
                     //Log.Message("Not a half dragon");
                     return;
@@ -69,7 +69,7 @@ namespace HalfDragons.Patch1
                 {
                     yield break;
                 }
-                if (!caster.IsEligableForDragonRage())
+                if (!caster.IsHalfDragon())
                 {
                     //Log.Message("Not a half dragon");
                     yield break;
