@@ -10,4 +10,3 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\Half-Dragons\Source\obj\Debug\Hal
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\Half-Dragons\Source\obj\Debug\HalfDragons.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\Half-Dragons\Source\obj\Debug\HalfDragons.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\Half-Dragons\Source\obj\Debug\HalfDragons.pdb
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\Half-Dragons\Source\obj\Debug\HalfDragons.csproj.CopyComplete

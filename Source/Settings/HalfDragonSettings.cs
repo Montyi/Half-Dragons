@@ -23,7 +23,7 @@ namespace HalfDragons
     {
         public override string ModIdentifier
         {
-            get { return "SettingTest"; }
+            get { return "HalfDragons"; }
         }
 
         private SettingHandle<int> needIncreaseInterval;
@@ -39,7 +39,7 @@ namespace HalfDragons
                 "needIncreaseInterval".Translate(),
                 "needIncreaseInterval_tip".Translate(),
                 600,
-                Validators.IntRangeValidator(0, int.MaxValue));
+                Validators.IntRangeValidator(1, int.MaxValue));
             needIncreaseValue = Settings.GetHandle<float>(
                 "needIncreaseValue",
                 "needIncreaseValue".Translate(),
@@ -70,7 +70,7 @@ namespace HalfDragons
                 "thresholdToBeConsideredHealed_tip".Translate(),
                 1f,
                 Validators.FloatRangeValidator(0, 1));
-            
+            SetSettings();
         }
 
         public override void SettingsChanged()

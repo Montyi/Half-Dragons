@@ -40,7 +40,8 @@ namespace HalfDragons
                 return;
             }
             age++;
-            if(AgeInTicks % SettingsAccess.needIncreaseInterval == 0)
+            Log.Message("needincrease interval: " + SettingsAccess.needIncreaseInterval);
+            if (AgeInTicks % SettingsAccess.needIncreaseInterval == 0)
             {
                 CurLevel += SettingsAccess.needIncreaseValue;
             }
