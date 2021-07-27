@@ -122,10 +122,11 @@
 	
 	<!-- ///	 Tribal     /// -->
 	
-	<PawnKindDef ParentName="TribalBase">
+	<PawnKindDef>
 		<defName>HD_tribal_guard</defName>
 		<label>totem</label>
 		<race>HalfDragon</race>
+		<defaultFactionType>TribeCivil</defaultFactionType>
     	<combatPower>70</combatPower>
     	<canBeSapper>true</canBeSapper>
 		<backstoryFiltersOverride Inherit="False">
@@ -150,5 +151,107 @@
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
 	
+	<PawnKindDef>
+		<defName>HD_tribal_guard</defName>
+		<label>totem</label>
+		<race>HalfDragon</race>
+		<defaultFactionType>TribeRought</defaultFactionType>
+    	<combatPower>70</combatPower>
+    	<canBeSapper>true</canBeSapper>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
+		<weaponMoney>300~300</weaponMoney>
+		<weaponTags>
+		    <li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef>
+		<defName>HD_tribal_guard</defName>
+		<label>totem</label>
+		<race>HalfDragon</race>
+		<defaultFactionType>TribeSavage</defaultFactionType>
+    	<combatPower>70</combatPower>
+    	<canBeSapper>true</canBeSapper>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
+		<weaponMoney>300~300</weaponMoney>
+		<weaponTags>
+		    <li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ///	 Pirate     /// -->
+	
+	
+  <PawnKindDef>
+    <defName>HD_Pirate</defName>
+    <label>pirate</label>
+    <race>HalfDragon</race>
+	<defaultFactionType>Pirate</defaultFactionType>
+    <combatPower>100</combatPower>
+    <maxGenerationAge>100</maxGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelMoney>400~1000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponMoney>250~345</weaponMoney>
+    <weaponTags>
+     <li>MedievalMeleeBasic</li>
+     <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <initialWillRange>5~8</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+  </PawnKindDef>
 
 </Defs>
