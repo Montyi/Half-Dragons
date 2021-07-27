@@ -47,5 +47,108 @@
         <initialResistanceRange>20~30</initialResistanceRange>
     </PawnKindDef>
 	
+	<!-- ///   Outlander    /// -->
+
+	<PawnKindDef ParentName="OutlanderBase">
+		<defName>HD_mercenary</defName>
+		<label>mercenary</label>
+		<race>HalfDragon</race>
+    	<combatPower>70</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<itemQuality>Poor</itemQuality>
+		<isFighter>true</isFighter>
+		<gearHealthRange>0.2~2.0</gearHealthRange>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+		<weaponMoney>65~250</weaponMoney>
+		<apparelMoney>200~400</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<techHediffsChance>0.06</techHediffsChance>
+		<techHediffsMoney>50~600</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<initialWillRange>5~8</initialWillRange>
+		<initialResistanceRange>17~21</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ///     Spacer     /// -->
+
+	<PawnKindDef ParentName="SpaceRefugeeBase">
+		<defName>HD_spacerefugee</defName>
+		<label>space refugee</label>
+		<race>HalfDragon</race>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelMoney>0~1000</apparelMoney>
+		<initialWillRange>1~7</initialWillRange>
+		<initialResistanceRange>15~21</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="SpaceRefugeeBase">
+		<defName>HD_spacerefugee_clothed</defName>
+		<label>space refugee</label>
+		<race>HalfDragon</race>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelMoney>200~1000</apparelMoney>
+		<gearHealthRange>1~1</gearHealthRange>
+		<disallowedTraits>
+			<li>Nudist</li>
+		</disallowedTraits>
+		<initialWillRange>1~7</initialWillRange>
+		<initialResistanceRange>1~5</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ///	 Tribal     /// -->
+	
+	<PawnKindDef ParentName="TribalBase">
+		<defName>HD_tribal_guard</defName>
+		<label>totem</label>
+		<race>HalfDragon</race>
+    	<combatPower>70</combatPower>
+    	<canBeSapper>true</canBeSapper>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
+		<weaponMoney>300~300</weaponMoney>
+		<weaponTags>
+		    <li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+	
 
 </Defs>
