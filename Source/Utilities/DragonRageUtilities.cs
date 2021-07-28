@@ -44,6 +44,8 @@ namespace HalfDragons
             {
                 //Log.Message("Resetting dragon rage");
                 pawn.health.RemoveHediff(dragonRage);
+                float dragonBloodGainFromDragonRage = SettingsAccess.dragonBloodGainFromDragonRage;
+                pawn.needs.TryGetNeed<Need_DragonBlood>().CurLevel += dragonBloodGainFromDragonRage;
             }
             if (dragonRage == null)
             {

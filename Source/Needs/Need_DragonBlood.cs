@@ -36,11 +36,11 @@ namespace HalfDragons
         {
             if (IsFrozen)
             {
-                Log.Message("dragonblood need frozen");
+                //Log.Message("dragonblood need frozen");
                 return;
             }
             age++;
-            Log.Message("needincrease interval: " + SettingsAccess.needIncreaseInterval);
+            //Log.Message("needincrease interval: " + SettingsAccess.needIncreaseInterval);
             if (AgeInTicks % SettingsAccess.needIncreaseInterval == 0)
             {
                 CurLevel += SettingsAccess.needIncreaseValue;

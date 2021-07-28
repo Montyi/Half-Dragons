@@ -12,4 +12,6 @@
   <thresholdToBeConsideredDamaged_tip>When is a body part considered damaged? (starts DragonBlood healing)</thresholdToBeConsideredDamaged_tip>
   <thresholdToBeConsideredHealed>Bodypart healed threshold</thresholdToBeConsideredHealed>
   <thresholdToBeConsideredHealed_tip>When is a body part considered healed? (stops DragonBlood healing)</thresholdToBeConsideredHealed_tip>
+  <dragonBloodGainFromDragonRage>DragonBlood gain from DragonRage</dragonBloodGainFromDragonRage>
+  <dragonBloodGainFromDragonRage_tip>On each final DragonRage hit, gain how much DragonBlood?</dragonBloodGainFromDragonRage_tip>
 </LanguageData>
