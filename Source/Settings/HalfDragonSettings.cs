@@ -17,13 +17,14 @@ namespace HalfDragons
         public static float injuryHealingCost;
         public static float thresholdToBeConsideredDamaged;
         public static float thresholdToBeConsideredHealed;
+        public static float dragonBloodGainFromDragonRage;
     }
 
     public class HalfDragonSettings : ModBase
     {
         public override string ModIdentifier
         {
-            get { return "SettingTest"; }
+            get { return "HalfDragons"; }
         }
 
         private SettingHandle<int> needIncreaseInterval;
@@ -32,6 +33,7 @@ namespace HalfDragons
         private SettingHandle<float> injuryHealingCost;
         private SettingHandle<float> thresholdToBeConsideredDamaged;
         private SettingHandle<float> thresholdToBeConsideredHealed;
+        private SettingHandle<float> dragonBloodGainFromDragonRage;
         public override void DefsLoaded()
         {
             needIncreaseInterval = Settings.GetHandle<int>(
@@ -39,7 +41,7 @@ namespace HalfDragons
                 "needIncreaseInterval".Translate(),
                 "needIncreaseInterval_tip".Translate(),
                 600,
-                Validators.IntRangeValidator(0, int.MaxValue));
+                Validators.IntRangeValidator(1, int.MaxValue));
             needIncreaseValue = Settings.GetHandle<float>(
                 "needIncreaseValue",
                 "needIncreaseValue".Translate(),
@@ -70,7 +72,13 @@ namespace HalfDragons
                 "thresholdToBeConsideredHealed_tip".Translate(),
                 1f,
                 Validators.FloatRangeValidator(0, 1));
-            
+            dragonBloodGainFromDragonRage = Settings.GetHandle<float>(
+                "dragonBloodGainFromDragonRage",
+                "dragonBloodGainFromDragonRage".Translate(),
+                "dragonBloodGainFromDragonRage_tip".Translate(),
+                0.1f,
+                Validators.FloatRangeValidator(-1, 1));
+            SetSettings();
         }
 
         public override void SettingsChanged()
@@ -87,6 +95,7 @@ namespace HalfDragons
             SettingsAccess.injuryHealingCost = injuryHealingCost.Value;
             SettingsAccess.thresholdToBeConsideredDamaged = thresholdToBeConsideredDamaged.Value;
             SettingsAccess.thresholdToBeConsideredHealed = thresholdToBeConsideredHealed.Value;
+            SettingsAccess.dragonBloodGainFromDragonRage = dragonBloodGainFromDragonRage.Value;
         }
     }
 }

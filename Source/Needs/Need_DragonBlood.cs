@@ -36,11 +36,12 @@ namespace HalfDragons
         {
             if (IsFrozen)
             {
-                Log.Message("dragonblood need frozen");
+                //Log.Message("dragonblood need frozen");
                 return;
             }
             age++;
-            if(AgeInTicks % SettingsAccess.needIncreaseInterval == 0)
+            //Log.Message("needincrease interval: " + SettingsAccess.needIncreaseInterval);
+            if (AgeInTicks % SettingsAccess.needIncreaseInterval == 0)
             {
                 CurLevel += SettingsAccess.needIncreaseValue;
             }
@@ -64,7 +65,7 @@ namespace HalfDragons
 
         private void DoDragonBloodHealing()
         {
-            Log.Message("Body parts to heal: " + string.Join(", ", bodyPartsToHeal.ConvertAll(part => part.def.defName)));
+            //Log.Message("Body parts to heal: " + string.Join(", ", bodyPartsToHeal.ConvertAll(part => part.def.defName)));
             BodyPartRecord partToHeal = bodyPartsToHeal.RandomElement();
             IEnumerable<Hediff_Injury> injuries = pawn.health.hediffSet.GetHediffs<Hediff_Injury>().Where(hediff => hediff.Part == partToHeal);
             Hediff_Injury injuryToHeal = injuries.RandomElement();
@@ -91,13 +92,13 @@ namespace HalfDragons
             if (damagedBodyParts.EnumerableNullOrEmpty()){
                 return;
             }
-            Log.Message("damaged body parts: " + string.Join(", ", damagedBodyParts.Select(part => part.def.defName)));
+            //Log.Message("damaged body parts: " + string.Join(", ", damagedBodyParts.Select(part => part.def.defName)));
             damagedBodyParts = damagedBodyParts.Where(
                 // filter to all parts, that are at 50% or lower
                 part => hediffs.GetPartHealth(part) <= part.def.GetMaxHealth(pawn) * SettingsAccess.thresholdToBeConsideredDamaged
             );
 
-            Log.Message("damaged body parts below 50%: " + string.Join(", ", damagedBodyParts.Select(part => part.def.defName)));
+            //Log.Message("damaged body parts below 50%: " + string.Join(", ", damagedBodyParts.Select(part => part.def.defName)));
             foreach(BodyPartRecord part in damagedBodyParts)
             {
                 if (!bodyPartsToHeal.Contains(part))
