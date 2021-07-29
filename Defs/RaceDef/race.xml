@@ -320,11 +320,273 @@
                 </options>
               </first>
             </li>
+			 <li>
+              <name>skin_2</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!--<li>
+								<weight>100</weight>  Name=() 
+								<only>RGBA(,,,1)</only>  RGB=(,,) # 
+							</li> -->
+                  <!--Common-->
+                  <!--Blondes-->
+                  <li>
+                    <weight>50</weight>
+                    <!-- Name=(Canary) -->
+                    <only>RGBA(0.98,1,0.52,1)</only>
+                    <!-- RGB=(250,255,132) #FAFF84 -->
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <!-- Name=(Buttermilk) -->
+                    <only>RGBA(0.97,0.91,0.67,1)</only>
+                    <!-- RGB=(247,233,170) #F7E9AA -->
+                  </li>
+                  <li>
+                    <weight>50</weight>
+                    <!-- Name=(Cream Brulee) -->
+                    <only>RGBA(1,0.93,0.63,1)</only>
+                    <!-- RGB=(255,237,160) #6FFEDA0 -->
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <!-- Name=(Metalic Gold) -->
+                    <only>RGBA(0.84,0.69,0.27,1)</only>
+                    <!-- RGB=(214,175,70) #D6AF46 -->
+                  </li>
+                  <li>
+                    <weight>50</weight>
+                    <!-- Name=(Fuel Yellow) -->
+                    <only>RGBA(0.79,0.60,0.19,1)</only>
+                    <!-- RGB=(201,152,48) #C99830 -->
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <!-- Name=(Tusk) -->
+                    <only>RGBA(0.88,0.89,0.71,1)</only>
+                    <!-- RGB=(225,226,181) #E1E2B5 -->
+                  </li>
+                  <!--Browns-->
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Carnaby Tan) -->
+                    <only>RGBA(0.35,0.25,0.13,1)</only>
+                    <!-- RGB=(89,65,34) #594122 -->
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <!-- Name=(Raw Umber) -->
+                    <only>RGBA(0.43,0.27,0.06,1)</only>
+                    <!-- RGB=(109,68,15) #6D440F -->
+                  </li>
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Russet) -->
+                    <only>RGBA(0.48,0.25,0.09,1)</only>
+                    <!-- RGB=(122,63,22) #7A3F16 -->
+                  </li>
+                  <li>
+                    <weight>100</weight>
+                    <!-- Name=(Golden Brown) -->
+                    <only>RGBA(0.67,0.42,0.11,1)</only>
+                    <!-- RGB=(170,106,27) #AA6A1B -->
+                  </li>
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Dark Tan) -->
+                    <only>RGBA(0.58,0.45,0.30,1)</only>
+                    <!-- RGB=(147,114,76) #93724C -->
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <!-- Name=(Deep Bronze) -->
+                    <only>RGBA(0.30,0.27,0.19,1)</only>
+                    <!-- RGB=(86,68,48) #564430 -->
+                  </li>
+                  <!--Oranges-->
+                  <li>
+                    <weight>30</weight>
+                    <!-- Name=(Chocolate) -->
+                    <only>RGBA(0.80,0.42,0.11,1)</only>
+                    <!-- RGB=(204,107,28) #CC6B1C -->
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <!-- Name=(Mango Tango) -->
+                    <only>RGBA(0.84,0.50,0.02,1)</only>
+                    <!-- RGB=(214.2,127.5,5.1) #D67F05 -->
+                  </li>
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Tenne (Tawny)) -->
+                    <only>RGBA(0.83,0.36,0.03,1)</only>
+                    <!-- RGB=(211,93,8) #D35D08 -->
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <!-- Name=(Carrot Orange) -->
+                    <only>RGBA(0.92,0.56,0.34,1)</only>
+                    <!-- RGB=(234,144,35) #EA9023 -->
+                  </li>
+                  <li>
+                    <weight>30</weight>
+                    <!-- Name=(Peru) -->
+                    <only>RGBA(0.83,0.57,0.27,1)</only>
+                    <!-- RGB=(211,145,69) #D39145 -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <!-- Name=(ButterCup) -->
+                    <only>RGBA(0.84,0.51,0.16,1)</only>
+                    <!-- RGB=(214,130,40) #D68228 -->
+                  </li>
+                  <!--Uncommon-->
+                  <!--Blacks-->
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Charcoal) -->
+                    <only>RGBA(0.29,0.29,0.29,1)</only>
+                    <!-- RGB=(73,73,73) #494949 -->
+                  </li>
+                  <li>
+                    <weight>4</weight>
+                    <!-- Name=(Nero) -->
+                    <only>RGBA(0.18,0.18,0.18,1)</only>
+                    <!-- RGB=(45,45,45) # -->
+                  </li>
+                  <!--Greys-->
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Shady Lady) -->
+                    <only>RGBA(0.59,0.59,0.59,1)</only>
+                    <!-- RGB=(150,150,150) #969696 -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <!-- Name=(Light Grey) -->
+                    <only>RGBA(0.83,0.83,0.83,1)</only>
+                    <!-- RGB=(211,211,211) #D3D3D3 -->
+                  </li>
+                  <li>
+                    <weight>40</weight>
+                    <!-- Name=(Mortar) -->
+                    <only>RGBA(0.34,0.34,0.34,1)</only>
+                    <!-- RGB=(86,86,86) #565656 -->
+                  </li>
+                  <!--Reds-->
+                  <li>
+                    <weight>5</weight>
+                    <!-- Name=(Falu Red) -->
+                    <only>RGBA(0.63,0.07,0.07,1)</only>
+                    <!-- RGB=(160,17,17) #A01111 -->
+                  </li>
+                  <li>
+                    <weight>50</weight>
+                    <!-- Name=(Maroon) -->
+                    <only>RGBA(0.42,0.04,0.04,1)</only>
+                    <!-- RGB=(107,11,9) #6B0B09 -->
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <!-- Name=(Fire Brick) -->
+                    <only>RGBA(0.68,0.14,0.13,1)</only>
+                    <!-- RGB=(173,35,32) #AD2320 -->
+                  </li>
+                  <li>
+                    <weight>50</weight>
+                    <!-- Name=(Sunset) -->
+                    <only>RGBA(0.77,0.28,0.27,1)</only>
+                    <!-- RGB=(196,72,70) #C44846 -->
+                  </li>
+                  <!--Rare-->
+                  <!--Whites-->
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(White) -->
+                    <only>RGBA(1,1,1,1)</only>
+                    <!-- RGB=(255,255,255) #FFFFFF -->
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <!-- Name=(White Smoke) -->
+                    <only>RGBA(0.92,0.92,0.92,1)</only>
+                    <!-- RGB=(234,234,234) #EAEAEA -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Gainsboro) -->
+                    <only>RGBA(0.89,0.89,0.89,1)</only>
+                    <!-- RGB=(226,226,226) # -->
+                  </li>
+                  <!--Blues-->
+                  <li>
+                    <weight>10</weight>
+                    <!-- Name=(Ultramarine) -->
+                    <only>RGBA(0.04,0.11,0.53,1)</only>
+                    <!-- RGB=(9,28,135) #091C87 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Free Speech Blue) -->
+                    <only>RGBA(0.24,0.32,0.75,1)</only>
+                    <!-- RGB=(61,82,191) #3D52BF -->
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <!-- Name=(Midnight Blue) -->
+                    <only>RGBA(0.11,0.16,0.43,1)</only>
+                    <!-- RGB=(27,41,109) #1B296D -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Astronaut) -->
+                    <only>RGBA(0.27,0.31,0.49,1)</only>
+                    <!-- RGB=(69,80,124) #45507C -->
+                  </li>
+                  <!--Light Blue-->
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Downy) -->
+                    <only>RGBA(0.46,0.86,0.78,1)</only>
+                    <!-- RGB=(118,219,200) #76DBC8 -->
+                  </li>
+                  <!--Very Rare-->
+                  <!--Vibrants-->
+                  <li>
+                    <weight>10</weight>
+                    <!-- Name=(Vermilion) -->
+                    <only>RGBA(0.95,0.30,0.01,1)</only>
+                    <!-- RGB=(242,76,4) #F24C04 -->
+                  </li>
+                  <!--Pink-->
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Deep Cerise) -->
+                    <only>RGBA(0.87,0.23,0.49,1)</only>
+                    <!-- RGB=(223,58,124) #DF3A7C -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Charm) -->
+                    <only>RGBA(0.80,0.39,0.49,1)</only>
+                    <!-- RGB=(204,99,124) #CC637C -->
+                  </li>
+                  <!--Purple-->
+                  <li>
+                    <weight>1</weight>
+                    <!-- Name=(Royal Purple) -->
+                    <only>RGBA(0.42,0.23,0.59,1)</only>
+                    <!-- RGB=(108,58,151) #6C3A97 -->
+                  </li>
+                  <!--Exotic-->
+                </options>
+              </first>
+            </li>
           </colorChannels>
 
           <bodyAddons>
             <li>
-              <colorChannel>hair</colorChannel>
+              <colorChannel>skin_2</colorChannel>
               <path>pawn/horns/LHorn</path>
               <bodyPart>left horn</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
@@ -337,7 +599,7 @@
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
-              <colorChannel>hair</colorChannel>
+              <colorChannel>skin_2</colorChannel>
               <path>pawn/horns/RHorn</path>
               <bodyPart>right horn</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -351,7 +613,7 @@
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
-              <colorChannel>hair</colorChannel>
+              <colorChannel>skin_2</colorChannel>
               <offsets>
                 <east>
                   <bodyTypes>
@@ -399,7 +661,7 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <colorChannel>hair</colorChannel>
+              <colorChannel>skin_2</colorChannel>
               <path>pawn/scales/FScales</path>
               <bodyPart>Waist</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
@@ -436,7 +698,7 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <colorChannel>hair</colorChannel>
+              <colorChannel>skin_2</colorChannel>
               <path>pawn/scales/MScales</path>
               <bodyPart>Waist</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
@@ -596,10 +858,11 @@
       <MoveSpeed>6.5</MoveSpeed>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.50</ArmorRating_Heat>
+      <ArmorRating_Heat>2</ArmorRating_Heat>
       <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
       <InjuryHealingFactor>1.5</InjuryHealingFactor>
       <EatingSpeed>2</EatingSpeed>
+	  <FoodPoisonChance>0.35</FoodPoisonChance>
       <BondAnimalChanceFactor>3</BondAnimalChanceFactor>
       <ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency>
       <MeleeHitChance>1.35</MeleeHitChance>
@@ -611,11 +874,10 @@
       <ResearchSpeed>0.7</ResearchSpeed>
       <ConstructionSpeed>1.5</ConstructionSpeed>
       <DrugSynthesisSpeed>0.75</DrugSynthesisSpeed>
-      <FoodPoisonChance>0.35</FoodPoisonChance>
       <ButcheryMechanoidEfficiency>0.85</ButcheryMechanoidEfficiency>
       <!--  -->
-      <MarketValue>2500</MarketValue>
-      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>3000</MarketValue>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
       <ComfyTemperatureMax>80</ComfyTemperatureMax>
       <MeatAmount>75</MeatAmount>
       <LeatherAmount>50</LeatherAmount>
@@ -623,7 +885,6 @@
       <Flammability>0.0</Flammability>
       <IncomingDamageFactor>0.85</IncomingDamageFactor>
       <AimingDelayFactor>1</AimingDelayFactor>
-      <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
       <PsychicSensitivity>1.10</PsychicSensitivity>
     </statBases>
 
@@ -631,7 +892,7 @@
       <leatherDef>Leather_Human</leatherDef>
       <body>halfdragonbody</body>
       <baseBodySize>1</baseBodySize>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseHealthScale>1.5</baseHealthScale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
@@ -804,10 +1065,13 @@
         <li>
           <key>BeardDef</key>
           <value>
-            <hasStyle>true</hasStyle>
-            <styleTags>
-              <li>NoBeard</li>
-            </styleTags>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
           </value>
         </li>
       </styleSettings>
