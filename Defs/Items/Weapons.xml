@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>HD_doublelance</defName>
+    <label>Dragu double lance</label>
+    <description>This weapon was developed in Dragu emmpire and focuses on attack speed but has lover damage due to that</description>
+    <soundInteract>Interact_MonoSword</soundInteract>
+    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <relicChance>3</relicChance>
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <graphicData>
+      <texPath>Items/weapons/HD_weapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.25, 1.25)</drawSize>
+    </graphicData>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18.75</power>
+        <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.67</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18.75</power>
+        <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.67</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>HD_piercerlance</defName>
+    <label>Dragu pierce lance</label>
+    <description>This weapon was developed in Dragu emmpire and focuses on armor penetration</description>
+    <soundInteract>Interact_MonoSword</soundInteract>
+    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <relicChance>3</relicChance>
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <graphicData>
+      <texPath>Items/weapons/HD_weapon2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.25, 1.25)</drawSize>
+    </graphicData>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>1.2</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>1.2</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>HD_averagelance</defName>
+    <label>Dragu lance</label>
+    <description>This weapon was developed in Dragu emmpire and focuses on avarage user without any specific need</description>
+    <soundInteract>Interact_MonoSword</soundInteract>
+    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <relicChance>3</relicChance>
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <graphicData>
+      <texPath>Items/weapons/HD_weapon1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.25, 1.25)</drawSize>
+    </graphicData>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>37.5</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>1</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>37.5</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>1</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>
