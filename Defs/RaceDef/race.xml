@@ -527,6 +527,9 @@
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
         <!-- my race is limited -->
         <weaponList>
+			<li>HD_doublelance</li>
+			<li>HD_piercerlance</li>
+			<li>HD_averagelance</li>
         </weaponList>
         <whiteWeaponList>
         </whiteWeaponList>
