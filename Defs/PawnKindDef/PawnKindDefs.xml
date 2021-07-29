@@ -49,7 +49,7 @@
 	
 	<!-- ///   Outlander    /// -->
 
-	<PawnKindDef ParentName="OutlanderBase">
+	<PawnKindDef>
 		<defName>HD_mercenary</defName>
 		<label>mercenary</label>
 		<race>HalfDragon</race>
@@ -67,6 +67,8 @@
 		<gearHealthRange>0.2~2.0</gearHealthRange>
 		<weaponTags>
 			<li>MedievalMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
 		<weaponMoney>65~250</weaponMoney>
 		<apparelMoney>200~400</apparelMoney>
@@ -127,64 +129,6 @@
 		<label>totem</label>
 		<race>HalfDragon</race>
 		<defaultFactionType>TribeCivil</defaultFactionType>
-    	<combatPower>70</combatPower>
-    	<canBeSapper>true</canBeSapper>
-		<backstoryFiltersOverride Inherit="False">
-			<li>
-				<categories>
-					<li>Tribal</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>200~300</apparelMoney>
-		<apparelRequired>
-			<li>Apparel_TribalHeaddress</li>
-		</apparelRequired>
-		<weaponMoney>300~300</weaponMoney>
-		<weaponTags>
-		    <li>MedievalMeleeBasic</li>
-			<li>NeolithicMeleeAdvanced</li>
-		</weaponTags>
-		<initialWillRange>2~4</initialWillRange>
-		<initialResistanceRange>10~16</initialResistanceRange>
-	</PawnKindDef>
-	
-	<PawnKindDef>
-		<defName>HD_tribal_guard</defName>
-		<label>totem</label>
-		<race>HalfDragon</race>
-		<defaultFactionType>TribeRought</defaultFactionType>
-    	<combatPower>70</combatPower>
-    	<canBeSapper>true</canBeSapper>
-		<backstoryFiltersOverride Inherit="False">
-			<li>
-				<categories>
-					<li>Tribal</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>200~300</apparelMoney>
-		<apparelRequired>
-			<li>Apparel_TribalHeaddress</li>
-		</apparelRequired>
-		<weaponMoney>300~300</weaponMoney>
-		<weaponTags>
-		    <li>MedievalMeleeBasic</li>
-			<li>NeolithicMeleeAdvanced</li>
-		</weaponTags>
-		<initialWillRange>2~4</initialWillRange>
-		<initialResistanceRange>10~16</initialResistanceRange>
-	</PawnKindDef>
-	
-	<PawnKindDef>
-		<defName>HD_tribal_guard</defName>
-		<label>totem</label>
-		<race>HalfDragon</race>
-		<defaultFactionType>TribeSavage</defaultFactionType>
     	<combatPower>70</combatPower>
     	<canBeSapper>true</canBeSapper>
 		<backstoryFiltersOverride Inherit="False">
