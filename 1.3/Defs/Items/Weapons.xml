@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef Name="BaseDragonMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Spacer</techLevel>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <relicChance>1</relicChance>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseDragonMeleeWeapon">
     <defName>HD_doublelance</defName>
     <label>Dragu double lance</label>
     <description>This weapon was developed in Dragu emmpire and focuses on attack speed but has lover damage due to that</description>
-    <soundInteract>Interact_MonoSword</soundInteract>
-    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_MonoSword</soundInteract>
+    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_MonoSword</meleeHitSound>
     <equippedAngleOffset>-65</equippedAngleOffset>
-    <relicChance>3</relicChance>
+    <relicChance MayRequire="Ludeon.RimWorld.Ideology">3</relicChance>
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
@@ -21,6 +36,9 @@
 	  <drawOffsetSouth>(0.0, 0.0, 0.2)</drawOffsetSouth>
 	  <drawOffsetWest>(0.0, 0.0, 0.2)</drawOffsetWest>
     </graphicData>
+	<statBases>
+	<Mass>0.85</Mass>
+	</statBases>
     <tools>
       <li>
         <label>handle</label>
@@ -51,14 +69,14 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseDragonMeleeWeapon">
     <defName>HD_piercerlance</defName>
     <label>Dragu pierce lance</label>
     <description>This weapon was developed in Dragu emmpire and focuses on armor penetration</description>
-    <soundInteract>Interact_MonoSword</soundInteract>
-    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_MonoSword</soundInteract>
+    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_MonoSword</meleeHitSound>
     <equippedAngleOffset>-65</equippedAngleOffset>
-    <relicChance>3</relicChance>
+    <relicChance MayRequire="Ludeon.RimWorld.Ideology">3</relicChance>
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
@@ -71,6 +89,9 @@
 	  <drawOffsetSouth>(0.0, 0.0, 0.2)</drawOffsetSouth>
 	  <drawOffsetWest>(0.0, 0.0, 0.2)</drawOffsetWest>
     </graphicData>
+	<statBases>
+	<Mass>0.85</Mass>
+	</statBases>
     <tools>
       <li>
         <label>handle</label>
@@ -101,14 +122,14 @@
     </tools>
   </ThingDef>
   
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseDragonMeleeWeapon">
     <defName>HD_averagelance</defName>
     <label>Dragu lance</label>
     <description>This weapon was developed in Dragu emmpire and focuses on avarage user without any specific need</description>
-    <soundInteract>Interact_MonoSword</soundInteract>
-    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_MonoSword</soundInteract>
+    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_MonoSword</meleeHitSound>
     <equippedAngleOffset>-65</equippedAngleOffset>
-    <relicChance>3</relicChance>
+    <relicChance MayRequire="Ludeon.RimWorld.Ideology">3</relicChance>
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
@@ -121,6 +142,9 @@
 	  <drawOffsetSouth>(0.0, 0.0, 0.2)</drawOffsetSouth>
 	  <drawOffsetWest>(0.0, 0.0, 0.2)</drawOffsetWest>
     </graphicData>
+	<statBases>
+	<Mass>0.85</Mass>
+	</statBases>
     <tools>
       <li>
         <label>handle</label>
