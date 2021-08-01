@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="true" Name="BaseDragon">
-    <defName>HalfDragon</defName>
-    <label>Half dragon</label>
     <description>The Half-Dragons have been a space faring race for quite a long time, contrary to popular belief these noble yet somewhat savage folk are not genetically engineered. They are easily spotted by their physical differences with humans thanks to their colorful scales, draconic eyes, horns and even tails! Thanks to their physical differences and strong scales people of this race proved themselves to be excellent melee combatants. It was easy to find them serving various empires outside of their own as front line fighters.
 
       Sadly due to their hardy nature and exotic looks many Half-Dragons end up captured and forced into gladiatorial combat. There are other reasons they are highly sought after; unique biological traits that are wholly unique to them. One of which allows to combine a specialized ore with their blood that activates various powerful abilities.
@@ -35,7 +33,7 @@
           </li>
         </disallowedTraits>
 
-        <maxDamageForSocialfight>0</maxDamageForSocialfight>
+        <maxDamageForSocialfight>10</maxDamageForSocialfight>
 
         <allowHumanBios>true</allowHumanBios>
 
@@ -875,6 +873,7 @@
       <MeleeHitChance>1.35</MeleeHitChance>
       <MeleeArmorPenetration>0.2</MeleeArmorPenetration>
       <MeleeDodgeChance>1.25</MeleeDodgeChance>
+	  <CarryingCapacity>100</CarryingCapacity>
       <!-- disadvantage -->
       <HungerRateMultiplier>1.2</HungerRateMultiplier>
       <MentalBreakThreshold>0.5</MentalBreakThreshold>
@@ -1026,11 +1025,12 @@
         <chanceFactor>0.4</chanceFactor>
       </li>
     </tools>
-
+	<comps></comps>
   </AlienRace.ThingDef_AlienRace>
 
   <AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
     <defName>HalfDragon</defName>
+	<label>Hald-Dragon</label>
     <alienRace>
       <generalSettings>
       </generalSettings>
@@ -1059,6 +1059,7 @@
 
   <AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
     <defName>HalfDragon_colonist</defName>
+	<label>Hald-Dragon</label>
     <alienRace>
       <generalSettings>
       </generalSettings>
