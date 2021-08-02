@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationAdd">
+	<Operation MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 						<xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 						<value>
 							<li>PlayerDragonColony</li>
