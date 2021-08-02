@@ -27,6 +27,8 @@ namespace HalfDragons
             get { return "HalfDragons"; }
         }
 
+        protected override bool HarmonyAutoPatch => false;
+
         private SettingHandle<int> needIncreaseInterval;
         private SettingHandle<float> needIncreaseValue;
         private SettingHandle<float> injuryHealingPoints;

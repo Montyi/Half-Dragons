@@ -25,7 +25,7 @@ namespace HalfDragons.Patch1
                     //Log.Message("Not a half dragon");
                     return;
                 }
-                if (caster?.equipment?.Primary?.def?.IsMeleeWeapon == false)
+                if (caster?.equipment?.Primary?.def?.IsMeleeWeapon != true)
                 {
                     //Log.Message("Not a melee weapon");
                     return;
