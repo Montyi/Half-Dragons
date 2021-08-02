@@ -35,11 +35,14 @@
       <li>
         <minSeverity>0</minSeverity>
         <label>Exhaustion stage 3</label>
-		<hungerRateFactorOffset>0.7</hungerRateFactorOffset>
+		<hungerRateFactorOffset>1</hungerRateFactorOffset>
+		<statOffsets>
+		<InjuryHealingFactor>3</InjuryHealingFactor>
+		</statOffsets>
 		<capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.10</offset>
+            <offset>-0.15</offset>
           </li>
 		</capMods>
       </li>
