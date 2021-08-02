@@ -25,10 +25,10 @@
     </comps>
   </HediffDef>
 
-  <HediffDef>
+   <HediffDef>
     <defName>HD_regenerativeExhaustion</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <description>Regenerative exhaustion, happens when dragon blood reaches 0%</description>
+    <description>Am tired</description>
     <initialSeverity>1</initialSeverity>
     <isBad>true</isBad>
     <stages>
@@ -41,8 +41,9 @@
             <capacity>Consciousness</capacity>
             <offset>-0.10</offset>
           </li>
+		</capMods>
       </li>
-      <li>
+       <li>
         <minSeverity>0.33</minSeverity>
         <label>Exhaustion stage 2</label>
 		<hungerRateFactorOffset>0.5</hungerRateFactorOffset>

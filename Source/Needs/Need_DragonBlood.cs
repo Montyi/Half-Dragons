@@ -24,13 +24,13 @@ namespace HalfDragons
             this.pawn = pawn;
         }
 
-        protected override bool IsFrozen
+        /*protected override bool IsFrozen
         {
             get
             {
                 return base.IsFrozen || pawn.health.hediffSet.HasHediff(HD_HediffDefOf.HD_regenerativeExhaustion);
             }
-        }
+        }*/
 
         public override void NeedInterval()
         {
