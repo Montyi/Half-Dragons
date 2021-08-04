@@ -592,8 +592,8 @@
           <bodyAddons>
 		  <li>
               <colorChannel>hd_bodyaddoncolour</colorChannel>
-              <path>pawn/Eyes/LEye</path>
-              <bodyPart>left eye</bodyPart>
+              <path>pawn/eyes/LEye</path>
+              <bodyPart>left eye</bodySPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>true</layerInvert>
               <alignWithHead>true</alignWithHead>
@@ -605,7 +605,7 @@
             </li>
             <li>
               <colorChannel>hd_bodyaddoncolour</colorChannel>
-              <path>pawn/Eyes/REye</path>
+              <path>pawn/eyes/REye</path>
               <bodyPart>right eye</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <inFrontOfBody>true</inFrontOfBody>
