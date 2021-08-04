@@ -601,6 +601,7 @@
               <drawSize>(1.0, 1.0)</drawSize>
               <drawSizePortrait>(1.0,1.0)</drawSizePortrait>
               <drawRotated>false</drawRotated>
+			  <drawnInBed>false</drawnInBed>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
@@ -615,6 +616,7 @@
               <drawSize>(1.0, 1.0)</drawSize>
               <drawSizePortrait>(1.0,1.0)</drawSizePortrait>
               <drawRotated>false</drawRotated>
+			  <drawnInBed>false</drawnInBed>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
 			<li>
