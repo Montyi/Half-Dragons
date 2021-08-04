@@ -617,6 +617,33 @@
               <drawRotated>false</drawRotated>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
+			<li>
+              <colorChannel>hd_bodyaddoncolour</colorChannel>
+              <path>pawn/eyes/closed/LEye</path>
+              <bodyPart>left eye</bodySPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>true</layerInvert>
+              <alignWithHead>true</alignWithHead>
+              <drawnDesiccated>false</drawnDesiccated>
+              <drawSize>(1.0, 1.0)</drawSize>
+              <drawSizePortrait>(1.0,1.0)</drawSizePortrait>
+              <drawRotated>false</drawRotated>S
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            </li>
+            <li>
+              <colorChannel>hd_bodyaddoncolour</colorChannel>
+              <path>pawn/eyes/closed/REye</path>
+              <bodyPart>right eye</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>true</layerInvert>
+              <alignWithHead>true</alignWithHead>
+              <drawnDesiccated>false</drawnDesiccated>
+              <drawSize>(1.0, 1.0)</drawSize>
+              <drawSizePortrait>(1.0,1.0)</drawSizePortrait>
+              <drawRotated>false</drawRotated>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            </li>
             <li>
               <colorChannel>hd_bodyaddoncolour</colorChannel>
               <path>pawn/horns/LHorn</path>
