@@ -593,7 +593,7 @@
 		  <li>
               <colorChannel>hd_bodyaddoncolour</colorChannel>
               <path>pawn/eyes/LEye</path>
-              <bodyPart>left eye</bodySPart>
+              <bodyPart>left eye</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>true</layerInvert>
               <alignWithHead>true</alignWithHead>
@@ -601,7 +601,7 @@
               <drawSize>(1.0, 1.0)</drawSize>
               <drawSizePortrait>(1.0,1.0)</drawSizePortrait>
               <drawRotated>false</drawRotated>
-			  <drawnInBed>false</drawnInBed>
+			    <drawnInBed>false</drawnInBed>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
@@ -622,14 +622,14 @@
 			<li>
               <colorChannel>hd_bodyaddoncolour</colorChannel>
               <path>pawn/eyes/closed/LEye</path>
-              <bodyPart>left eye</bodySPart>
+              <bodyPart>left eye</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>true</layerInvert>
               <alignWithHead>true</alignWithHead>
               <drawnDesiccated>false</drawnDesiccated>
               <drawSize>(1.0, 1.0)</drawSize>
               <drawSizePortrait>(1.0,1.0)</drawSizePortrait>
-              <drawRotated>false</drawRotated>S
+              <drawRotated>false</drawRotated>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>

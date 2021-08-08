@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Common.cs" />
     <Compile Include="Defs\TraitColorChangesDef.cs" />
+    <Compile Include="Mod.cs" />
     <Compile Include="Needs\Need_DragonBlood.cs" />
     <Compile Include="Patches\Patch_PawnGenerator.cs" />
     <Compile Include="Patches\Patch_Pawn_NeedsTracker.cs" />

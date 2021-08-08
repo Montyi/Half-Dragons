@@ -18,8 +18,8 @@ namespace HalfDragons
         ToggleSettings settings;
         public HalfDragonsMod(ModContentPack content) : base(content)
         {
-          
-          
+
+         
 
 
             this.settings = GetSettings<ToggleSettings>();
@@ -29,18 +29,22 @@ namespace HalfDragons
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
             this.settings = GetSettings<ToggleSettings>();
+            listingStandard.CheckboxLabeled("Use vanilla eyes (requires reloading the save to take effect)", ref settings.eyes, "Use vanilla eyes (requires reloading the save)");
             if (settings.eyes)
             {
-                listingStandard.CheckboxLabeled("Use vanilla eyes (requires reloading the save to take effect)", ref settings.eyes, "Use vanilla eyes (requires reloading the save)");
-                DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.graphicPaths.First().head = "pawn/headwithneweyes/";
-                //Log.Message(DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.graphicPaths.First().head);
+               
+               
+                DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.generalSettings.alienPartGenerator.bodyAddons.Find(J => J.bodyPart == "right eye").path = "pawn/eyes/vanilla/REye";
+                DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.generalSettings.alienPartGenerator.bodyAddons.Find(J => J.bodyPart == "left eye").path = "pawn/eyes/vanilla/LEye";
+               
             }
             else
             {
-                listingStandard.CheckboxLabeled("Use modded eyes (requires reloading the save to take effect)", ref settings.eyes, "Use modded eyes (requires reloading the save)");
-               
-                DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.graphicPaths.First().head = "pawn/head/";
-                //Log.Message(DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.graphicPaths.First().head);
+              
+
+                DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.generalSettings.alienPartGenerator.bodyAddons.Find(J => J.bodyPart == "right eye").path = "pawn/eyes/REye";
+                DefDatabase<AlienRace.ThingDef_AlienRace>.AllDefs.ToList().Find(A => A.defName == "HalfDragon").alienRace.generalSettings.alienPartGenerator.bodyAddons.Find(J => J.bodyPart == "left eye").path = "pawn/eyes/LEye";
+                
 
             }
             listingStandard.End();
@@ -49,7 +53,7 @@ namespace HalfDragons
         }
         public override string SettingsCategory()
         {
-            return "Half Dragons";
+            return "Half Dragons eyes settings";
         }
     }
     public class ToggleSettings : ModSettings
