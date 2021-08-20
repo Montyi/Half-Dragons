@@ -1150,7 +1150,7 @@
 
   <AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
     <defName>HalfDragon</defName>
-	<label>Hald-Dragon</label>
+	<label>Half-Dragon</label>
     <alienRace>
       <generalSettings>
       </generalSettings>
@@ -1179,7 +1179,7 @@
 
   <AlienRace.ThingDef_AlienRace ParentName="BaseDragon">
     <defName>HalfDragon_colonist</defName>
-	<label>Hald-Dragon</label>
+	<label>Half-Dragon</label>
     <alienRace>
       <generalSettings>
       </generalSettings>
