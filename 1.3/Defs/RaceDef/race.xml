@@ -14,6 +14,19 @@
           <head>pawn/head/</head>
           <customDrawSize>(1.0, 1.0)</customDrawSize>
         </li>
+		<li>
+                <lifeStageDefs>
+                    <li>HumanlikeAdult</li>
+                </lifeStageDefs>
+				<body>pawn/bodies/</body>
+                <head>pawn/head/</head>
+                <headOffsetDirectional>
+                    <north>(0, 0.05)</north>
+                    <east>(0, 0.05)</east>
+                    <south>(0, 0.05)</south>
+                    <west>(0, 0.05)</west>
+                </headOffsetDirectional>
+            </li>
       </graphicPaths>
 
       <generalSettings>
