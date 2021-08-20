@@ -4,16 +4,35 @@
   <ThingDef Name="BaseDragonMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
     <techLevel>Spacer</techLevel>
     <smeltable>true</smeltable>
+	<statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
     <thingCategories>
       <li>WeaponsMelee</li>
     </thingCategories>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
-    <relicChance>1</relicChance>
+	<burnableByRecipe>true</burnableByRecipe>
+    <relicChance MayRequire="Ludeon.RimWorld.Ideology">1</relicChance>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
+	<comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+	<thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
   </ThingDef>
   
   <ThingDef ParentName="BaseDragonMeleeWeapon">
